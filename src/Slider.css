@@ -1,0 +1,80 @@
+article {
+  position: absolute;
+  margin: auto;
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+  transition: 2s;
+  opacity: 0;
+}
+
+.slider {
+  background-color: white;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  min-height: 400px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.slider p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.slider h4 {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: rgb(139, 177, 103);
+  text-transform: capitalize;
+}
+
+.slider__description {
+  color: gray;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.price {
+  color: darkolivegreen;
+  font-weight: 600;
+  margin: 5px;
+}
+
+article > img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 4px rgb(190, 204, 153);
+}
+
+.active1 {
+  transform: translateX(-100%);
+  opacity: 1;
+}
+
+.active2 {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.active3 {
+  transform: translateX(100%);
+  opacity: 1;
+}
+
+.next {
+  transform: translateX(200%);
+}
+
+.last {
+  transform: translateX(-200%);
+}

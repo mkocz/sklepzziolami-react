@@ -1,0 +1,45 @@
+header {
+  display: block;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  position: fixed;
+  z-index: 3;
+  border-bottom: 1px solid grey;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  height: 70px;
+}
+
+header img {
+  height: 50px;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navlinks {
+  display: flex;
+}
+
+.navlinks__item {
+  display: block;
+  line-height: 24px;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+}
+
+a.active .navlinks__item {
+  color: #7fc60d;
+}

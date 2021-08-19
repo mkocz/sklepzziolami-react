@@ -1,0 +1,16 @@
+.final {
+  display: block;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.final__container {
+  min-height: 75vh;
+  width: 50%;
+  margin: auto;
+}
+
+.final__container a {
+  width: 200px;
+  margin-top: 30px;
+}
