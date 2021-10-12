@@ -8,7 +8,6 @@ import './Basket.css'
 function Basket() {
     const [{ basket }] = useStateValue()
 
-
     return (
         <div className="basket">
             {(basket?.length === 0) && <div className="basket__summaryEmpty">
