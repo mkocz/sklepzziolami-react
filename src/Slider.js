@@ -23,11 +23,12 @@ const Slider = () => {
             <div className="slider">
                 {data.map((slide, productIndex) => {
                     const { id, image, name, description_short } = slide;
-
                     let position = "next";
+        
                     if (productIndex === index) {
                         position = "active1";
                     }
+        
                     if (productIndex === index + 1 || (index === products.length - 1 && productIndex === 0)) {
                         position = "active2";
                     }
@@ -37,13 +38,11 @@ const Slider = () => {
                     }
 
                     if ((index === products.length - 2 && productIndex === 0) || (index === products.length - 1 && productIndex === 1)) {
-                        position = "active3"
+                        position = "active3";
                     }
 
-                    if (productIndex === index - 1
-                        || (index === 0 && productIndex === products.length - 1)
-                    ) {
-                        position = "last"
+                    if (productIndex === index - 1 || (index === 0 && productIndex === products.length - 1)) {
+                        position = "last";
                     }
 
                     return (
