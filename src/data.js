@@ -31,7 +31,6 @@ const products = [
         description_short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         price: 30,
     },
-
     {
         id: 5,
         image: 'images/malina.jpg',
@@ -40,7 +39,6 @@ const products = [
         description_short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         price: 50,
     },
-
     {
         id: 6,
         image: 'images/mieta.jpg',
@@ -49,7 +47,6 @@ const products = [
         description_short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         price: 20,
     },
-
     {
         id: 7,
         image: 'images/roza.jpg',
@@ -58,8 +55,6 @@ const products = [
         description_short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         price: 50,
     }
-
-
 ]
 
 export default products;
