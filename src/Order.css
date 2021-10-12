@@ -44,7 +44,6 @@
 }
 
 .order__summary {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
